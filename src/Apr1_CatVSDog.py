@@ -11,7 +11,7 @@ st.set_page_config(page_title="Cat vs Dog Classifier", layout="centered")
 
 @st.cache_resource
 def get_model():
-    return load_learner("models/cat_vs_dog_model_fastai_2_8_4_rn50.pkl")
+    return load_learner("models/cat_vs_dog_model_fastai_2_8_6.pkl")
 
 learn = get_model()
 
